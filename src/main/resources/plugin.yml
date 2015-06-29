@@ -1,0 +1,8 @@
+main: de.web.paulschwandes.meleefun.MeleeFun
+name: MeleeFun
+version: 1.0
+commands:
+  meleefun:
+    description: Toggle Melee Fun
+    usage: /meleefun
+    permission: meleefun.toggle
