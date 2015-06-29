@@ -22,6 +22,7 @@ public class MeleeFun extends JavaPlugin implements Listener {
 
     @Override
     public void onLoad() {
+        this.saveDefaultConfig();
         damageFactor = getConfig().getDouble("damageFactor");
     }
 
